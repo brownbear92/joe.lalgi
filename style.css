@@ -1,0 +1,164 @@
+
+
+  .nav-item active li {
+    background-color: black;
+  }
+
+  .jumbotron
+    {background-color:black;
+    color:white;
+    }
+
+  @media(max-width: 768px){
+    header #title,
+    header nav,
+    header nav li {
+      float:none;
+      text:align:center;
+      width:100%;
+    }
+  }
+
+    #sm {
+    font-size:50px;
+  }
+
+  .menubar li{
+    display:flex;
+    text-decoration: none;
+    color:black;
+    padding:0 20px 0 20px;
+    background-color: white;
+  }
+
+  #descript a{
+    color:#fff;
+    text-decoration:none;
+    font-size:40px;
+
+  }
+
+  #descript a:hover{
+    text-decoration: none;
+    background-color: #fff;
+    color:#000;
+  }
+
+  .current a{
+    font-weight:bold;
+    color:#red;
+  }
+
+  .menubar a{
+    color:Black;
+    text-decoration:none;
+    font-size: 16px;
+  }
+
+  a:hover{
+    border-color: black;
+    text-decoration:none;
+    color:Grey;
+    opacity: 1;
+    transition: 0.2s;
+  }
+
+  body{
+    font:15px/1.5 Helvetica, Arial;
+    padding:0;
+    margin:0;
+    background-color:#f4f4f4;
+    background: url(../img/banner.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover ;
+
+  }
+
+  .blurb{
+    font:8px/1 Arial;
+
+  }
+
+  #descript aside{
+    color:#fff;
+    background-color: #000;
+    opacity:0.8;
+    float:right;
+    width:60%;
+    padding: 10px;
+    margin-top:50px;
+    overflow: hidden;
+  }
+
+  #descript p{
+    color:#fff;
+    background-color: #000;
+    opacity:0.8;
+    float:right;
+    width:60%;
+    padding: 10px;
+    margin-top:50px;
+    overflow: hidden;
+    border: #fff solid 2px;
+  }
+  .container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+  }
+
+  #descript img{
+    float:left;
+    width: 25%;
+    margin-left:50px;
+  }
+
+
+  header{
+    background:white;
+    color:black;
+    padding-top:30px;
+    min-height:70px;
+    border-bottom:black 3px solid;
+
+  }
+
+  header a{
+    color:black;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-size:16px;
+
+  }
+
+  header ul{
+    magin:0;
+    padding:0;
+
+  }
+
+  header li{
+    display:inline;
+    padding: 0 20px 0 20px;
+  }
+
+  header #title{
+    float:left;
+    color:#fff;
+    background-color: #000;
+    opacity:0.6;
+  }
+
+  header #title h1{
+    margin:0;
+  }
+
+  footer {
+    padding:80px;
+    margin-top:20px;
+    color:white;
+    background-color: black;
+    text-align: center;
+  }
